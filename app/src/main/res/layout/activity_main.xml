@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/m_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Choose Activity Type"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/m_btn_relax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_title"
+        android:layout_marginBottom="10dp"
+        android:text="relaxation"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/m_btn_edu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_relax"
+        android:layout_marginBottom="10dp"
+        android:text="education"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/m_btn_social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_edu"
+        android:text="social"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/m_btn_recreational"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_social"
+        android:text="recreational"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/m_btn_charity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_recreational"
+        android:text="charity"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/m_btn_cooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_charity"
+        android:text="cooking"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/m_btn_busywork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_cooking"
+        android:text="busywork"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/m_btn_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_busywork"
+        android:text="music"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/m_btn_diy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m_btn_music"
+        android:text="diy"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
